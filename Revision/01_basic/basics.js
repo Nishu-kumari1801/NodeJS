@@ -1,20 +1,30 @@
-var a=10;
-let b=20;
+// const { username } = require("./data");
 
-console.log(a+b);
-b=100;
- a=300;
-console.log(a+b);
+// const data = require('./data');
+// console.log(data.username);
 
-if(a!=300) console.log("nishu jha");
-else console.log("nishu jha in else condition");
+const {username}=require('./data');
+console.log(username);
 
-// for(var a=0;a<=10;a++) console.log(a);
-let z=0;
-while(z!=10){
-    console.log(z);
-    z++;
-}
+// var a=10;
+// let b=20;
 
-var users=["anil",'sam','peter','bruce']
-console.log(users[0]);
+// console.log(a+b);
+// b=100;
+//  a=300;
+// console.log(a+b);
+
+// if(a!=300) console.log("nishu jha");
+// else console.log("nishu jha in else condition");
+
+// // for(var a=0;a<=10;a++) console.log(a);
+// let z=0;
+// while(z!=10){
+//     console.log(z);
+//     z++;
+// }
+
+// var users=["anil",'sam','peter','bruce']
+// console.log(users[0]);
+
+
