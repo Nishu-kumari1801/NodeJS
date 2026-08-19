@@ -9,9 +9,23 @@
 
 // ==================== lecture:-02 (External package and package.json) ====================
 
+// const http =require('http');
+// http.createServer((req,res)=>{
+//     res.write('<h1>Hello this is nishu jha</h1>')
+//     res.end("Hello");
+// }).listen(4800);
+
+// ==================== lecture:-03 (What is nodemon package ) ====================
+
 const http =require('http');
 http.createServer((req,res)=>{
-    // res.write("This is anil sidhu");
     res.write('<h1>Hello this is nishu jha</h1>')
     res.end("Hello");
 }).listen(4800);
+
+// const http =require('http');
+http.createServer((req,res)=>{
+    res.write('<h1>Other server</h1>')
+    res.end("Hello");
+}).listen(5200);
+
