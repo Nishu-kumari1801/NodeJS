@@ -31,6 +31,14 @@
 
 // ==================== lecture:-04 (Understand Server response) ====================
 
+// const http=require("http");
+// http.createServer((req,res)=>{
+//     res.write("<h2>Hii i m nishu jha from glbitm</h2>");
+//     res.end("hello code step by step");
+// }).listen(4800);
+
+// ==================== lecture:-05 (Make Simple API in Node js) ====================
+
 const http=require("http");
 http.createServer((req,res)=>{
     res.write("<h2>Hii i m nishu jha from glbitm</h2>");
