@@ -39,6 +39,8 @@
 
 // ==================== lecture:-05 (Make Simple API in Node js) ====================
 // ==================== lecture:-06 (Understand Request params in Node) ====================
+// ==================== lecture:-07 (Get Input from terminal and  command line prompt) ====================
+
 
 const http=require("http");
 http.createServer((req,res)=>{
