@@ -38,6 +38,7 @@
 // }).listen(4800);
 
 // ==================== lecture:-05 (Make Simple API in Node js) ====================
+// ==================== lecture:-06 (Understand Request params in Node) ====================
 
 const http=require("http");
 http.createServer((req,res)=>{
