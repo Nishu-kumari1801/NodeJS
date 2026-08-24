@@ -25,7 +25,11 @@ http.createServer((req, res) => {
             req.on('end',()=>{
                 let rowData=Buffer.concat(dataBody).toString();
                 let readableData = queryString.parse(rowData);
-                console.log(readableData);
+                // console.log(readableData);
+                let dataString = "My name is "+readableData.name+" my email id is "+readableData.email;
+                // console.log(dataString);
+                fs.writeFileSync("text/"+readableData.name+".txt",dataString);
+                console.log("file created");
             })
             res.write('<h1>Data Submitted</h1>');
         }
